@@ -4,16 +4,16 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', group: [:development, :test] #  group: [:development, :test] was added by me
+gem 'sqlite3', group: [:development, :test] #  group: [:development, :test] added by me per codermanual
 
 # Use postresql as database for production
-group :production do #this entire method was added by me
+group :production do #this entire method added by me per codermanual
   gem 'pg'
   gem 'rails_12factor'  
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3' # '~> 4.0.3'
+gem 'sass-rails', ' ~> 4.0.3' # '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0 ' # '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
