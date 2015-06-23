@@ -5,14 +5,16 @@
 
 .navbar {
 
-  background: -webkit-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.7) 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.7) 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.7) 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.7) 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.7) 90%); /* W3C */
+  background: -webkit-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.75) 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.75) 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.75) 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.75) 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.75) 90%); /* W3C */
         
 }
 //body {
+ 
+ 
 
   // Gradents from http://uigradients.com/#
 //  background: -webkit-linear-gradient(90deg, #3C2036 0%, #5D4157 10%, #A8CABA 90%, #A8CABA 100%); Chrome 10+, Saf5.1+ */
@@ -46,4 +48,8 @@
   background:rgba(155,197,195,0.9);
   border: 1px solid rgba(155,197,195,1);
   
+}
+.allert-success{
+  background:rgba(155,197,195,0.9);
+  border: 1px solid rgba(155,197,195,1);
 }
