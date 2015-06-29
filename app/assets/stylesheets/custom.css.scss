@@ -3,6 +3,24 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index:-1;
+
+  display: block;
+  background-image: url('https://northwesternimages.files.wordpress.com/2013/08/copper-ridge-panorama1em.jpg');
+  width:100%;
+  height:100%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
 .navbar {
 
   background: -webkit-linear-gradient(90deg, rgb(35,37,38) 10%, rgba(0,2,3,0.75) 90%); /* Chrome 10+, Saf5.1+ */
