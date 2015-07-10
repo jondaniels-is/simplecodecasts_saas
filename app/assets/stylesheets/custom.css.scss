@@ -42,10 +42,10 @@ body {
    // background-image:'/images/background.jpg';
 
   //Gradents from http://uigradients.com/ Beautiful Turquoise
-  background: -webkit-linear-gradient(90deg, #136a8a 10%, #267871 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #136a8a 10%, #267871 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #136a8a 10%, #267871 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #136a8a 10%, #267871 90%); /* Opera 11.10+ */
+  background: -webkit-linear-gradient(#136a8a 10%, #267871 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(#136a8a 10%, #267871 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(#136a8a 10%, #267871 90%); /* IE10 */
+  background:      -o-linear-gradient(#136a8a 10%, #267871 90%); /* Opera 11.10+ */
   background:         linear-gradient(#136a8a 10%, #267871 90%); /* W3C */
         
   // background: -webkit-linear-gradient( #063056 0%, #085078 10%, #85D8CE 90%, #74C7BD 100%); /* Chrome 10+, Saf5.1+ */
@@ -74,15 +74,21 @@ body {
   // background:      -o-linear-gradient(135deg, rgba(97,97,97,0.09) 10%, rgba(155,197,195,0.1) 90%); /* Opera 11.10+ */
   // background:         linear-gradient(135deg, rgba(97,97,97,0.09) 10%, rgba(155,197,195,0.1) 90%); /* W3C */
 }
-// .btn-success{
-// //  color:rgb(45,45,45);
-//   background:rgba(155,197,195,0.9);
-//   border: 1px solid rgba(155,197,195,1);
+.btn-primary{
+  background:rgba(24,106,138,0.9);
+  border:1px solid rgb(9,96,128);
   
-// }
+}
+
+.btn-success{
+//  color:rgb(45,45,45);
+  background:rgba(43,120,113,0.8);
+  border: 1px solid rgba(38,120,113,1);
+  
+}
 .allert-success{
-  background:rgba(155,197,195,0.9);
-  border: 1px solid rgba(155,197,195,1);
+  background:rgba(78,150,148,0.8);
+  border: 1px solid rgba(68,130,128,1);
 }
 
 .vr{
