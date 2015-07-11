@@ -1,4 +1,5 @@
 #Modify Devise Gem to include params for pro users and run payment through stripe
+#Requires white listing of sign_up params in application_controller
 
 class Users::RegistrationsController < Devise::RegistrationsController
   def create

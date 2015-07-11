@@ -16,15 +16,15 @@ $(document).ready(function() {
                 number: ccNum,
                 cvc: cvcNum,
                 exp_month: expMonth,
-                expYear: expYear
-            });
+                exp_year: expYear
+            }, stripeResponseHandler);
         }    
         return false;
 }); // form submission
   
   function stripeResponseHandler(status, response) {
     // Get a reference to the form:
-    var f = $("#new_user");
+    var f = $(".new_user");
     
     // Get the token from the response:
     var token = response.id;
