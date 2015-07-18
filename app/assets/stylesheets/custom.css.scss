@@ -9,6 +9,12 @@
     border-color: #faebcc;
 }
 
+.row {
+    display: flex; /* equal height of the children */
+    flex-direction: row;
+}
+
+
 // // .background-image {
 // //   position: fixed;
 // //   left: 0;
