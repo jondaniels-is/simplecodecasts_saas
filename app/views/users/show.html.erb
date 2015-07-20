@@ -1,9 +1,15 @@
-
-<%= @user.profile.first_name %> 
-<%= @user.profile.last_name %>
-<%= @user.profile.job_title %><br/>
-<% if current_user.plan_id == 2 %>
-  <%= @user.profile.phone_number %><br/>
-  <%= @user.profile.contact_email %><br/>
-<% end %>
-<%= @user.profile.description %><br/>
+<div class= "row">
+  <div class = "col-md-6 col-md-offset-3">
+    <div class="well">
+      <%= @user.profile.first_name %> 
+      <%= @user.profile.last_name %>
+      <%= @user.profile.job_title %><br/>
+      <% if current_user.plan_id == 2 %>
+        <%= @user.profile.phone_number %><br/>
+        <%= @user.profile.contact_email %><br/>
+      <% end %>
+      <%= @user.profile.description %><br/>
+      <%= link_to "Edit your profile", edit_user_profile_path(current_user), class:'btn btn-default btn-lg btn-block' %>
+    </div>
+  </div>
+</div>
