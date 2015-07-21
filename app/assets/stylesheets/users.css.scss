@@ -1,3 +1,5 @@
+/* User show page styles */
+
 .job-title-icon{
     width:30px;
     height:30px;
@@ -28,8 +30,19 @@
     border-color: #46b8da;
 }
 
-.profile-image{
+.user-avatar{
+    // border-radius: 50%;
+    // border: 2px solid white;
+    // box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+    width:128px;
+    height:128px;
+}
+
+.well.white-bg{
+    background:white;
+}
+/* User index page styles */
+.user-index-avatar{
     border-radius: 50%;
     border: 2px solid white;
-    box-shadow: 0px 10px 10px #999;
 }
