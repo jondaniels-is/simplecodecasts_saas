@@ -36,8 +36,6 @@ $(document).ready(function(){
             });
     };
     
-    
-    
     var hover = function(){
          $('.alert-container').hover(function(){ 
              $('.alert-close').fadeTo(450, 0.5); 
