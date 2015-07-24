@@ -25,13 +25,13 @@ a{
 }
 
 .well.profile-description{
-    background-color: #5cb85c;
-    border-color:#4cae4c;
+    background-color: rgba(92,184,92,0.8);
+    border-color: rgba(76,174,76,0.9);
 }
 
 .well.contact-info{
-    background-color: #5bc0de;
-    border-color: #46b8da;
+    background-color: rgba(91,192,222,0.8);
+    border-color: rgba(70,184,218,0.9);
 }
 
 .user-avatar{
@@ -42,12 +42,14 @@ a{
     height:128px;
 }
 
+/* User index page styles */
+
 .well.white-bg{
     //background:white;
     background:rgba(250,250,250,0.38);
     border:2px solid rgba(200,200,200,0.25);
 }
-/* User index page styles */
+
 .user-index-avatar{
     border-radius: 50%;
     border: 2px solid white;
