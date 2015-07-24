@@ -3,6 +3,21 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+.spacer-40{
+    height:40px;
+    display:box;
+}
+
+.spacer-30{
+    height:30px;
+    display:box;
+}
+
+.spacer-20{
+    height:20px;
+    display:box;
+}
+
 .fade{
     display:block;
     position:absolute;
@@ -11,8 +26,8 @@
     height:100%;
     width:100%;
     margin:0;
-    background:#555555;
-    opacity:0.5;
+    background:#000;
+    opacity:0.2;
     z-index:2;
     // top:-10px;
     // left:-10px;

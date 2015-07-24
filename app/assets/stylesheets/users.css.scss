@@ -43,7 +43,9 @@ a{
 }
 
 .well.white-bg{
-    background:white;
+    //background:white;
+    background:rgba(250,250,250,0.38);
+    border:2px solid rgba(200,200,200,0.25);
 }
 /* User index page styles */
 .user-index-avatar{
