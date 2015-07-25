@@ -21,9 +21,15 @@
 $(document).ready(function(){
     $('.fade').hide();
     
+    var c = $('.alert').css("color");
+    var bc = $('.alert').css("background-color")
+    
     var i = function(){
-        $('.alert').before("<i class= 'fa fa-check-circle fa-2x alert-close'><i>")
+        $('.alert').before("<div class='circle-icon'><i class= 'fa fa-check-circle fa-2x alert-close'><i></div>")
+        $('.fa-check-circle').css({"color":c})
+        $('.circle-icon').css({"background-color":bc})
         $('.alert-close').hide();
+        $('.circle-icon').hide();
     };
     
     var AlertIn = function(){
@@ -33,6 +39,7 @@ $(document).ready(function(){
         $('.fade').fadeIn(150, function(){
             $('.alert').fadeIn(250);
             $('.alert-close').fadeIn(250);
+            $('.circle-icon').fadeIn(250);
             });
     };
     
@@ -53,11 +60,16 @@ $(document).ready(function(){
         $('.fade').fadeOut(450);
         $('.alert-close').remove();
         $('.alert').remove();
+        $('.circle-icon').remove();
     };
     
     var click = function(){
         $('.alert-container').on('click', AlertOut);
     };
+    
+    var keypress = function(){
+        $(document).keypress(AlertOut);
+    }
     
     
     if ($('.alert')[0]){
@@ -65,6 +77,8 @@ $(document).ready(function(){
         AlertIn();
         hover();
         click();
+        keypress();
+        
     }
     else{
         $('.fade').hide();
